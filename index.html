@@ -27,7 +27,7 @@
   --texto:"EB Garamond",Georgia,serif;
   --tarjeta:rgba(18,14,11,.55);
   --visor:rgba(10,8,6,.96);
-  --textura-op:.07;--textura-mezcla:screen;
+  --textura-op:.16;--textura-mezcla:screen;
   --brillo:rgba(242,106,27,.20);
   color-scheme:dark;
 }
@@ -42,15 +42,14 @@
   --oro:#a8400a;
   --tarjeta:rgba(255,250,240,.6);
   --visor:rgba(241,232,214,.98);
-  --textura-op:.22;--textura-mezcla:multiply;
+  --textura-op:.38;--textura-mezcla:multiply;
   --brillo:rgba(242,106,27,.14);
   color-scheme:light;
 }
 .tema{
-  position:fixed;top:14px;right:14px;z-index:20;display:inline-flex;align-items:center;gap:8px;
-  font:500 .95rem var(--texto);color:var(--tinta);cursor:pointer;
-  background:var(--fondo-2);border:1px solid var(--linea);border-radius:999px;padding:6px 14px;
-  box-shadow:0 4px 14px rgba(0,0,0,.18);
+  display:inline-flex;align-items:center;gap:8px;
+  font:500 .9rem var(--texto);color:var(--tinta-suave);cursor:pointer;
+  background:transparent;border:1px solid var(--linea);border-radius:999px;padding:4px 12px;
 }
 .tema:hover{border-color:var(--ambar)}
 .tema svg{width:16px;height:16px}
@@ -67,12 +66,27 @@ body::before{ /* textura de papel gastado */
 }
 img{max-width:100%;display:block}
 a{color:inherit}
-.envoltura{max-width:1180px;margin:0 auto;padding:0 20px}
+.envoltura{max-width:1280px;margin:0 auto;padding:0 20px}
+
+/* ---------- Menú ---------- */
+.menu{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--fondo) 88%,transparent);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--linea)}
+.menu .envoltura{display:flex;align-items:center;gap:28px;height:58px}
+.menu .marca{font-family:var(--gotica);font-size:1.6rem;color:var(--oro);text-decoration:none;margin-right:auto;line-height:1}
+.menu nav{display:flex;gap:24px}
+.menu nav a{text-decoration:none;font-family:var(--titulo);font-size:1.1rem;letter-spacing:.06em;color:var(--tinta-suave)}
+.menu nav a:hover,.menu nav a[aria-current="true"]{color:var(--oro)}
+@media (max-width:560px){
+  .menu .envoltura{gap:14px}
+  .menu nav{gap:14px}
+  .menu .marca{font-size:1.3rem}
+  .tema span{display:none}
+}
 
 /* ---------- Portada ---------- */
 .portada{
-  min-height:100svh;display:grid;place-items:center;text-align:center;
-  padding:64px 20px 48px;position:relative;
+  min-height:calc(100svh - 58px);display:grid;place-items:center;text-align:center;
+  padding:64px 20px 48px;position:relative;scroll-margin-top:58px;
   background:
     radial-gradient(ellipse 70% 55% at 50% 42%, var(--brillo), transparent 70%),
     radial-gradient(ellipse 120% 80% at 50% 120%, rgba(249,161,27,.10), transparent 60%);
@@ -114,7 +128,7 @@ a{color:inherit}
 .bajar{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);color:var(--tinta-suave);font-size:.85rem;letter-spacing:.3em;text-transform:uppercase;text-decoration:none}
 
 /* ---------- Secciones ---------- */
-section{padding:84px 0}
+section{padding:84px 0;scroll-margin-top:58px}
 .titulo-seccion{text-align:center;margin-bottom:44px}
 .titulo-seccion h2{font-family:var(--gotica);font-weight:400;font-size:clamp(2.6rem,7vw,4.2rem);line-height:1.05;color:var(--oro)}
 .titulo-seccion p{color:var(--tinta-suave);max-width:620px;margin:10px auto 0}
@@ -128,30 +142,39 @@ section{padding:84px 0}
 .dato a{color:var(--oro);text-underline-offset:3px}
 
 /* Galería */
-.filtros{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:-16px 0 36px}
+#obras{padding-top:8px}
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
 .filtros button{
   font:inherit;font-size:1rem;cursor:pointer;color:var(--tinta-suave);
   background:transparent;border:1px solid var(--linea);border-radius:999px;padding:5px 16px;
 }
 .filtros button[aria-pressed="true"]{color:#1a0d04;background:var(--ambar);border-color:var(--ambar)}
-.galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr));gap:26px;align-items:start}
-.obra{cursor:pointer;display:block;width:100%;text-align:left;
-  font:inherit;color:inherit;background:var(--fondo-2);border:1px solid var(--linea);border-radius:6px;
-  padding:12px 12px 18px;transition:transform .2s, border-color .2s, box-shadow .2s;
+.galeria{columns:4 250px;column-gap:22px}
+.obra{cursor:pointer;display:block;width:100%;text-align:left;break-inside:avoid;margin:0 0 26px;
+  font:inherit;color:inherit;background:none;border:0;padding:0;
 }
-.obra:hover,.obra:focus-visible{transform:translateY(-4px);border-color:rgba(249,161,27,.55);box-shadow:0 18px 40px rgba(0,0,0,.45);outline:none}
-.obra .marco{overflow:hidden;border-radius:3px;background:#0b0907}
-.obra img{width:100%;height:auto;transition:transform .5s}
-.obra:hover img{transform:scale(1.03)}
-.obra .info{padding:14px 6px 0}
-.obra h3{font-family:var(--titulo);font-weight:600;font-size:1.55rem;line-height:1.15;letter-spacing:.01em}
-.obra .autor{color:var(--tinta-suave);font-style:italic;margin-top:2px}
-.obra .meta{font-size:.98rem;color:var(--tinta-suave);margin-top:8px}
+.obra .marco{overflow:hidden;background:#0b0907}
+.obra img{width:100%;height:auto;transition:transform .5s,opacity .3s}
+.obra:hover img,.obra:focus-visible img{transform:scale(1.03)}
+.obra:focus-visible{outline:2px solid var(--ambar);outline-offset:4px}
+.obra .pie{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-top:8px;font-size:.98rem}
+.obra .pie b{font-family:var(--titulo);font-weight:500;font-size:1.12rem;letter-spacing:.01em}
+.obra .pie span{color:var(--tinta-suave);white-space:nowrap}
+@media (max-width:560px){
+  .galeria{columns:2;column-gap:12px}
+  .obra{margin-bottom:18px}
+  .obra .pie{flex-direction:column;gap:0;font-size:.88rem}
+  .obra .pie b{font-size:1rem}
+}
 .precio{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--linea)}
 .precio span{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--tinta-suave)}
 .precio b{font-family:var(--titulo);font-size:1.5rem;font-weight:600;color:var(--oro)}
 .sello{display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ambar);border:1px solid rgba(249,161,27,.45);border-radius:3px;padding:1px 8px}
-.pronto{text-align:center;color:var(--tinta-suave);font-style:italic;margin-top:16px}
+.pronto{color:var(--tinta-suave);font-style:italic;margin-top:4px}
+
+/* Información */
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-bottom:64px}
+.sub{font-family:var(--titulo);font-weight:600;font-size:1.8rem;color:var(--ambar);margin:0 0 22px;letter-spacing:.02em}
 
 /* Cómo pujar */
 .pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;counter-reset:paso}
@@ -176,8 +199,8 @@ dialog{
 }
 dialog::backdrop{background:rgba(0,0,0,.7)}
 .visor{display:grid;grid-template-columns:1fr minmax(300px,380px);height:100%}
-.visor .lienzo{position:relative;display:grid;place-items:center;padding:56px 72px;min-height:0;min-width:0}
-.visor .lienzo img{max-height:calc(100dvh - 112px);max-width:100%;width:auto;height:auto;object-fit:contain;border-radius:2px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.visor .lienzo{position:relative;display:grid;grid-template-rows:1fr auto;place-items:center;gap:16px;padding:40px 72px 20px;min-height:0;min-width:0}
+.visor .lienzo img{max-height:calc(100dvh - 190px);max-width:100%;width:auto;height:auto;object-fit:contain;border-radius:2px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
 .visor aside{background:var(--fondo-2);border-left:1px solid var(--linea);padding:64px 30px 30px;overflow:auto}
 .visor aside h2{font-family:var(--titulo);font-weight:600;font-size:2.1rem;line-height:1.1}
 .visor aside .autor{font-style:italic;color:var(--tinta-suave);margin-top:6px}
@@ -188,24 +211,28 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 .visor .nota{margin-top:22px;font-size:.98rem;color:var(--tinta-suave);border-left:2px solid var(--naranja);padding-left:12px}
 .visor .acciones{justify-content:flex-start;margin-top:22px}
 .visor .boton{font-size:1.1rem;padding:9px 18px}
-.miniaturas{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
-.miniaturas button{padding:0;border:2px solid transparent;border-radius:3px;cursor:pointer;background:none;width:64px}
-.miniaturas button[aria-current="true"]{border-color:var(--ambar)}
+.miniaturas{display:flex;gap:10px;justify-content:center}
+.miniaturas button{padding:0;border:2px solid transparent;border-radius:3px;cursor:pointer;background:none;width:78px;
+  font:inherit;font-size:.78rem;color:var(--tinta-suave);opacity:.75}
+.miniaturas button:hover{opacity:1}
+.miniaturas button[aria-current="true"]{border-color:var(--ambar);opacity:1}
+.miniaturas img{width:100%;height:58px;object-fit:cover}
+.miniaturas small{display:block;padding:2px 0}
 .ctrl{
   position:absolute;z-index:2;display:grid;place-items:center;width:46px;height:46px;border-radius:50%;
   background:var(--fondo-2);border:1px solid var(--linea);color:var(--tinta);cursor:pointer;font-size:1.4rem;
 }
 .ctrl:hover{border-color:var(--ambar);color:var(--oro)}
 .ctrl.cerrar{top:14px;right:14px;position:fixed}
-.ctrl.ant{left:14px;top:50%;transform:translateY(-50%)}
-.ctrl.sig{right:12px;top:50%;transform:translateY(-50%)}
+.ctrl.ant{left:14px;top:45%;transform:translateY(-50%)}
+.ctrl.sig{right:12px;top:45%;transform:translateY(-50%)}
 
 @media (max-width:820px){
   section{padding:64px 0}
   .visor{grid-template-columns:1fr;grid-template-rows:auto auto;height:auto;min-height:100%;overflow:auto}
   dialog{overflow:auto!important}
   .visor .lienzo{padding:60px 16px 16px}
-  .visor .lienzo img{max-height:62dvh}
+  .visor .lienzo img{max-height:58dvh}
   .visor aside{border-left:0;border-top:1px solid var(--linea);padding:24px 20px 40px}
   .ctrl.ant,.ctrl.sig{top:auto;bottom:-6px;transform:none}
   .ctrl.ant{left:16px}.ctrl.sig{right:16px}
@@ -216,56 +243,57 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 </head>
 <body>
 <script>try{var t=new URLSearchParams(location.search).get("tema")||localStorage.getItem("tema");if(t==="claro")document.documentElement.dataset.tema="claro"}catch(e){}</script>
-<button class="tema" id="tema" type="button" aria-label="Cambiar entre modo oscuro y claro"></button>
-
-<header class="portada">
-  <div>
-    <p class="lugar" data-campo="lugar">Poleka Café Cultural</p>
-    <p class="edicion" id="edicion">Segunda</p>
-    <h1 id="titulo"><span>Subasta</span><span>de Arte</span></h1>
-    <div class="adorno" aria-hidden="true">
-      <svg width="34" height="18" viewBox="0 0 34 18" fill="currentColor"><path d="M17 0l4 9-4 9-4-9z"/><circle cx="5" cy="9" r="2"/><circle cx="29" cy="9" r="2"/></svg>
-    </div>
-    <p class="fecha"><span id="fecha-texto">Cierre: 4 de diciembre</span><small id="fecha-sub">Música en vivo · Manizales</small></p>
-    <div class="cuenta" id="cuenta" hidden></div>
-    <div class="acciones">
-      <a class="boton" href="#obras">Ver las obras</a>
-      <a class="boton hueco" href="#visita">Cómo llegar</a>
-    </div>
+<header class="menu">
+  <div class="envoltura">
+    <a class="marca" href="#intro">Poleka</a>
+    <nav aria-label="Secciones">
+      <a href="#intro">Intro</a>
+      <a href="#obras">Galería</a>
+      <a href="#info">Información</a>
+    </nav>
+    <button class="tema" id="tema" type="button" aria-label="Cambiar entre modo oscuro y claro"></button>
   </div>
-  <a class="bajar" href="#visita">Desliza ↓</a>
 </header>
 
 <main>
-  <section class="visita" id="visita">
-    <div class="envoltura">
-      <div class="titulo-seccion">
-        <h2>Ven a verlas</h2>
-        <p>Las obras ya están colgadas en Poleka. Puedes ir a verlas en persona, tomarte un café y dejar tu oferta antes del cierre.</p>
+  <header class="portada" id="intro">
+    <div>
+      <p class="lugar" data-campo="lugar">Poleka Café Cultural</p>
+      <p class="edicion" id="edicion">Segunda</p>
+      <h1 id="titulo"><span>Subasta</span><span>de Arte</span></h1>
+      <div class="adorno" aria-hidden="true">
+        <svg width="34" height="18" viewBox="0 0 34 18" fill="currentColor"><path d="M17 0l4 9-4 9-4-9z"/><circle cx="5" cy="9" r="2"/><circle cx="29" cy="9" r="2"/></svg>
       </div>
-      <div class="visita-grid">
-        <div class="dato"><h3>Dónde</h3><p id="direccion"></p><p><a id="mapa" target="_blank" rel="noopener">Abrir en el mapa →</a></p></div>
-        <div class="dato"><h3>Cuándo</h3><p id="horario"></p></div>
-        <div class="dato"><h3>Cierre</h3><p id="cierre-corto"></p></div>
+      <p class="fecha"><span id="fecha-texto">Cierre: 4 de diciembre</span><small id="fecha-sub">Música en vivo · Manizales</small></p>
+      <div class="cuenta" id="cuenta" hidden></div>
+      <div class="acciones">
+        <a class="boton" href="#obras">Ver las obras</a>
+        <a class="boton hueco" href="#info">Cómo llegar</a>
       </div>
     </div>
-  </section>
+    <a class="bajar" href="#obras">Desliza ↓</a>
+  </header>
 
   <section id="obras">
     <div class="envoltura">
-      <div class="titulo-seccion">
-        <h2>Las obras</h2>
-        <p>Toca una obra para verla en grande. El precio base es la oferta mínima para empezar a pujar.</p>
-      </div>
       <div class="filtros" id="filtros" hidden></div>
       <div class="galeria" id="galeria"></div>
       <p class="pronto">Algunas fichas aún están por confirmar; las iremos completando.</p>
     </div>
   </section>
 
-  <section id="pujar" class="visita">
+  <section id="info" class="visita">
     <div class="envoltura">
-      <div class="titulo-seccion"><h2>¿Cómo pujar?</h2></div>
+      <div class="titulo-seccion">
+        <h2>Información</h2>
+        <p>Las obras ya están colgadas en Poleka. Puedes ir a verlas en persona, tomarte un café y dejar tu oferta antes del cierre.</p>
+      </div>
+      <div class="info-grid">
+        <div class="dato"><h3>Dónde</h3><p id="direccion"></p><p><a id="mapa" target="_blank" rel="noopener">Abrir en el mapa →</a></p></div>
+        <div class="dato"><h3>Cuándo</h3><p id="horario"></p></div>
+        <div class="dato"><h3>Cierre</h3><p id="cierre-corto"></p></div>
+      </div>
+      <h3 class="sub">¿Cómo pujar?</h3>
       <div class="pasos" id="pasos"></div>
     </div>
   </section>
@@ -297,12 +325,12 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
     <div class="lienzo">
       <button class="ctrl ant" id="ant" aria-label="Obra anterior">‹</button>
       <img id="visor-img" alt="">
+      <div class="miniaturas" id="v-minis"></div>
       <button class="ctrl sig" id="sig" aria-label="Obra siguiente">›</button>
     </div>
     <aside>
       <h2 id="v-titulo"></h2>
       <p class="autor" id="v-autor"></p>
-      <div class="miniaturas" id="v-minis"></div>
       <dl id="v-datos"></dl>
       <p class="desc" id="v-desc"></p>
       <div class="precio"><span>Precio base</span><b id="v-precio"></b></div>
@@ -373,7 +401,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
   };
   const pintarTema = () => {
     const claro = document.documentElement.dataset.tema === "claro";
-    botonTema.innerHTML = claro ? iconos.oscuro + "Modo oscuro" : iconos.claro + "Modo claro";
+    botonTema.innerHTML = claro ? iconos.oscuro + "<span>Modo oscuro</span>" : iconos.claro + "<span>Modo claro</span>";
     document.querySelector('meta[name="theme-color"]').content = claro ? "#f1e8d6" : "#120e0b";
   };
   botonTema.onclick = () => {
@@ -384,18 +412,20 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
   };
   pintarTema();
 
+  /* --- Menú: resalta la sección visible --- */
+  const enlaces = [...document.querySelectorAll(".menu nav a")];
+  const obs = new IntersectionObserver(entradas => entradas.forEach(e => {
+    if (e.isIntersecting) enlaces.forEach(a => a.setAttribute("aria-current", a.hash === "#" + e.target.id));
+  }), {rootMargin: "-45% 0px -50% 0px"});
+  ["intro", "obras", "info"].forEach(id => obs.observe(document.getElementById(id)));
+
   /* --- Galería --- */
   const galeria = $("#galeria");
   function pintar(filtro) {
     galeria.innerHTML = obras.map((o, i) => (filtro && o.tecnica !== filtro) ? "" : `
       <button class="obra" data-i="${i}" aria-label="Ver ${esc(o.titulo)}">
         <div class="marco"><img src="${o.fotos[0].p}" width="${o.fotos[0].w}" height="${o.fotos[0].h}" alt="${esc(o.titulo)}, de ${esc(o.artista)}" loading="lazy"></div>
-        <div class="info">
-          <h3>${esc(o.titulo)}</h3>
-          <p class="autor">${real(o.artista) ? esc(o.artista) : "Artista por confirmar"}</p>
-          ${o.pendiente ? '<p class="meta"><span class="sello">Datos por confirmar</span></p>' : `<p class="meta">${[o.tecnica, o.medidas].filter(real).map(esc).join(" · ")}</p>`}
-          <div class="precio"><span>Precio base</span><b>${pesos(o.precio)}</b></div>
-        </div>
+        <div class="pie"><b>${esc(o.titulo)}</b><span>${o.precio == null ? "" : pesos(o.precio)}</span></div>
       </button>`).join("");
   }
   pintar();
@@ -437,7 +467,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
     $("#v-desc").textContent = o.descripcion || "";
     $("#v-precio").textContent = pesos(o.precio);
     $("#v-minis").innerHTML = o.fotos.length > 1 ? o.fotos.map((f, j) =>
-      `<button data-j="${j}" aria-label="Foto ${j+1}"><img src="${f.p}" alt=""></button>`).join("") : "";
+      `<button data-j="${j}"><img src="${f.p}" alt=""><small>${f.detalle ? "Detalle" : "Obra"}</small></button>`).join("") : "";
     mostrarFoto(o, 0);
     [actual + 1, actual - 1].forEach(k => { const v = obras[(k + obras.length) % obras.length]; precargar(v.fotos[0].p); precargar(v.fotos[0].g); });
     o.fotos.slice(1).forEach(f => precargar(f.g));
