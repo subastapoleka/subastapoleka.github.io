@@ -29,8 +29,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/curillo-1-g.jpg",
-     "p": "img/curillo-1-p.jpg",
+     "g": "img/curillo-1-g.webp",
+     "p": "img/curillo-1-p.webp",
      "w": 3663,
      "h": 5495
     }
@@ -48,8 +48,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/tangara-multicolor-1-g.jpg",
-     "p": "img/tangara-multicolor-1-p.jpg",
+     "g": "img/tangara-multicolor-1-g.webp",
+     "p": "img/tangara-multicolor-1-p.webp",
      "w": 3259,
      "h": 4889
     }
@@ -67,8 +67,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/colibri-1-g.jpg",
-     "p": "img/colibri-1-p.jpg",
+     "g": "img/colibri-1-g.webp",
+     "p": "img/colibri-1-p.webp",
      "w": 3473,
      "h": 5210
     }
@@ -86,8 +86,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/guacamaya-bandera-ara-chloropterus-1-g.jpg",
-     "p": "img/guacamaya-bandera-ara-chloropterus-1-p.jpg",
+     "g": "img/guacamaya-bandera-ara-chloropterus-1-g.webp",
+     "p": "img/guacamaya-bandera-ara-chloropterus-1-p.webp",
      "w": 3357,
      "h": 5035
     }
@@ -105,8 +105,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-05-1-g.jpg",
-     "p": "img/obra-05-1-p.jpg",
+     "g": "img/obra-05-1-g.webp",
+     "p": "img/obra-05-1-p.webp",
      "w": 3079,
      "h": 4618
     }
@@ -124,8 +124,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-06-1-g.jpg",
-     "p": "img/obra-06-1-p.jpg",
+     "g": "img/obra-06-1-g.webp",
+     "p": "img/obra-06-1-p.webp",
      "w": 2134,
      "h": 3201
     }
@@ -143,8 +143,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-07-1-g.jpg",
-     "p": "img/obra-07-1-p.jpg",
+     "g": "img/obra-07-1-g.webp",
+     "p": "img/obra-07-1-p.webp",
      "w": 2558,
      "h": 3837
     }
@@ -162,8 +162,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-08-1-g.jpg",
-     "p": "img/obra-08-1-p.jpg",
+     "g": "img/obra-08-1-g.webp",
+     "p": "img/obra-08-1-p.webp",
      "w": 2173,
      "h": 3259
     }
@@ -181,8 +181,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-09-1-g.jpg",
-     "p": "img/obra-09-1-p.jpg",
+     "g": "img/obra-09-1-g.webp",
+     "p": "img/obra-09-1-p.webp",
      "w": 2548,
      "h": 3822
     }
@@ -200,8 +200,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-10-1-g.jpg",
-     "p": "img/obra-10-1-p.jpg",
+     "g": "img/obra-10-1-g.webp",
+     "p": "img/obra-10-1-p.webp",
      "w": 2509,
      "h": 3764
     }
@@ -219,8 +219,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-11-1-g.jpg",
-     "p": "img/obra-11-1-p.jpg",
+     "g": "img/obra-11-1-g.webp",
+     "p": "img/obra-11-1-p.webp",
      "w": 4000,
      "h": 6000
     }
@@ -238,8 +238,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-12-1-g.jpg",
-     "p": "img/obra-12-1-p.jpg",
+     "g": "img/obra-12-1-g.webp",
+     "p": "img/obra-12-1-p.webp",
      "w": 5903,
      "h": 3935
     }
@@ -257,8 +257,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-13-1-g.jpg",
-     "p": "img/obra-13-1-p.jpg",
+     "g": "img/obra-13-1-g.webp",
+     "p": "img/obra-13-1-p.webp",
      "w": 4000,
      "h": 6000
     }
@@ -276,8 +276,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-14-1-g.jpg",
-     "p": "img/obra-14-1-p.jpg",
+     "g": "img/obra-14-1-g.webp",
+     "p": "img/obra-14-1-p.webp",
      "w": 3376,
      "h": 5444
     }
@@ -295,8 +295,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-15-1-g.jpg",
-     "p": "img/obra-15-1-p.jpg",
+     "g": "img/obra-15-1-g.webp",
+     "p": "img/obra-15-1-p.webp",
      "w": 4000,
      "h": 6000
     }
@@ -314,8 +314,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-16-1-g.jpg",
-     "p": "img/obra-16-1-p.jpg",
+     "g": "img/obra-16-1-g.webp",
+     "p": "img/obra-16-1-p.webp",
      "w": 4000,
      "h": 6000
     }
@@ -333,14 +333,14 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-17-1-g.jpg",
-     "p": "img/obra-17-1-p.jpg",
+     "g": "img/obra-17-1-g.webp",
+     "p": "img/obra-17-1-p.webp",
      "w": 3357,
      "h": 5035
     },
     {
-     "g": "img/obra-17-2-g.jpg",
-     "p": "img/obra-17-2-p.jpg",
+     "g": "img/obra-17-2-g.webp",
+     "p": "img/obra-17-2-p.webp",
      "w": 4000,
      "h": 6000
     }
@@ -358,8 +358,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-18-1-g.jpg",
-     "p": "img/obra-18-1-p.jpg",
+     "g": "img/obra-18-1-g.webp",
+     "p": "img/obra-18-1-p.webp",
      "w": 4000,
      "h": 6000
     }
@@ -377,8 +377,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-19-1-g.jpg",
-     "p": "img/obra-19-1-p.jpg",
+     "g": "img/obra-19-1-g.webp",
+     "p": "img/obra-19-1-p.webp",
      "w": 4275,
      "h": 2850
     }
@@ -396,8 +396,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-20-1-g.jpg",
-     "p": "img/obra-20-1-p.jpg",
+     "g": "img/obra-20-1-g.webp",
+     "p": "img/obra-20-1-p.webp",
      "w": 3181,
      "h": 4771
     }
@@ -415,8 +415,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-21-1-g.jpg",
-     "p": "img/obra-21-1-p.jpg",
+     "g": "img/obra-21-1-g.webp",
+     "p": "img/obra-21-1-p.webp",
      "w": 3561,
      "h": 5342
     }
@@ -434,8 +434,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-22-1-g.jpg",
-     "p": "img/obra-22-1-p.jpg",
+     "g": "img/obra-22-1-g.webp",
+     "p": "img/obra-22-1-p.webp",
      "w": 3717,
      "h": 5576
     }
@@ -453,8 +453,8 @@ window.SUBASTA = {
    "descripcion": "",
    "fotos": [
     {
-     "g": "img/obra-23-1-g.jpg",
-     "p": "img/obra-23-1-p.jpg",
+     "g": "img/obra-23-1-g.webp",
+     "p": "img/obra-23-1-p.webp",
      "w": 3347,
      "h": 5020
     }
