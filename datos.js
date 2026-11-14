@@ -19,142 +19,6 @@ window.SUBASTA = {
  },
  "obras": [
   {
-   "id": "curillo",
-   "titulo": "Curillo",
-   "artista": "Juan David Cabrera (Caja de Ideas)",
-   "tecnica": "Acuarela",
-   "soporte": "Cartulina Durex",
-   "medidas": "Aprox. 25 × 35 cm",
-   "precio": 80000,
-   "descripcion": "",
-   "anio": "",
-   "fotos": [
-    {
-     "g": "img/curillo-1-g.webp",
-     "p": "img/curillo-1-p.webp",
-     "w": 3663,
-     "h": 5495
-    },
-    {
-     "g": "img/curillo-1-d1-g.webp",
-     "p": "img/curillo-1-d1-p.webp",
-     "w": 1080,
-     "h": 1080,
-     "detalle": true
-    },
-    {
-     "g": "img/curillo-1-d2-g.webp",
-     "p": "img/curillo-1-d2-p.webp",
-     "w": 1080,
-     "h": 1080,
-     "detalle": true
-    }
-   ],
-   "pendiente": false
-  },
-  {
-   "id": "tangara-multicolor",
-   "titulo": "Tángara multicolor",
-   "artista": "Juan David Cabrera (Caja de Ideas)",
-   "tecnica": "Acuarela",
-   "soporte": "Papel Strathmore Vision Mixed Media",
-   "medidas": "Aprox. 28 × 36 cm",
-   "precio": 110000,
-   "descripcion": "",
-   "anio": "",
-   "fotos": [
-    {
-     "g": "img/tangara-multicolor-1-g.webp",
-     "p": "img/tangara-multicolor-1-p.webp",
-     "w": 3259,
-     "h": 4889
-    },
-    {
-     "g": "img/tangara-multicolor-1-d1-g.webp",
-     "p": "img/tangara-multicolor-1-d1-p.webp",
-     "w": 961,
-     "h": 961,
-     "detalle": true
-    },
-    {
-     "g": "img/tangara-multicolor-1-d2-g.webp",
-     "p": "img/tangara-multicolor-1-d2-p.webp",
-     "w": 961,
-     "h": 960,
-     "detalle": true
-    }
-   ],
-   "pendiente": false
-  },
-  {
-   "id": "colibri",
-   "titulo": "Colibrí",
-   "artista": "Juan David Cabrera (Caja de Ideas)",
-   "tecnica": "Acuarela",
-   "soporte": "Papel Strathmore Vision Mixed Media",
-   "medidas": "Aprox. 28 × 36 cm",
-   "precio": 90000,
-   "descripcion": "",
-   "anio": "",
-   "fotos": [
-    {
-     "g": "img/colibri-1-g.webp",
-     "p": "img/colibri-1-p.webp",
-     "w": 3473,
-     "h": 5210
-    },
-    {
-     "g": "img/colibri-1-d1-g.webp",
-     "p": "img/colibri-1-d1-p.webp",
-     "w": 1024,
-     "h": 1024,
-     "detalle": true
-    },
-    {
-     "g": "img/colibri-1-d2-g.webp",
-     "p": "img/colibri-1-d2-p.webp",
-     "w": 1024,
-     "h": 1024,
-     "detalle": true
-    }
-   ],
-   "pendiente": false
-  },
-  {
-   "id": "guacamaya-bandera-ara-chloropterus",
-   "titulo": "Guacamaya bandera (Ara chloropterus)",
-   "artista": "Juan David Cabrera (Caja de Ideas)",
-   "tecnica": "Acuarela",
-   "soporte": "Papel Strathmore Vision Mixed Media",
-   "medidas": "Aprox. 28 × 36 cm",
-   "precio": 90000,
-   "descripcion": "",
-   "anio": "",
-   "fotos": [
-    {
-     "g": "img/guacamaya-bandera-ara-chloropterus-1-g.webp",
-     "p": "img/guacamaya-bandera-ara-chloropterus-1-p.webp",
-     "w": 3357,
-     "h": 5035
-    },
-    {
-     "g": "img/guacamaya-bandera-ara-chloropterus-1-d1-g.webp",
-     "p": "img/guacamaya-bandera-ara-chloropterus-1-d1-p.webp",
-     "w": 989,
-     "h": 989,
-     "detalle": true
-    },
-    {
-     "g": "img/guacamaya-bandera-ara-chloropterus-1-d2-g.webp",
-     "p": "img/guacamaya-bandera-ara-chloropterus-1-d2-p.webp",
-     "w": 990,
-     "h": 990,
-     "detalle": true
-    }
-   ],
-   "pendiente": false
-  },
-  {
    "id": "obra-05",
    "titulo": "Obra 05",
    "artista": "Por confirmar",
@@ -459,6 +323,142 @@ window.SUBASTA = {
     }
    ],
    "pendiente": true
+  },
+  {
+   "id": "curillo",
+   "titulo": "Curillo",
+   "artista": "Juan David Cabrera (Caja de Ideas)",
+   "tecnica": "Acuarela",
+   "soporte": "Cartulina Durex",
+   "medidas": "Aprox. 25 × 35 cm",
+   "precio": 80000,
+   "descripcion": "",
+   "anio": "",
+   "fotos": [
+    {
+     "g": "img/curillo-1-g.webp",
+     "p": "img/curillo-1-p.webp",
+     "w": 3663,
+     "h": 5495
+    },
+    {
+     "g": "img/curillo-1-d1-g.webp",
+     "p": "img/curillo-1-d1-p.webp",
+     "w": 1080,
+     "h": 1080,
+     "detalle": true
+    },
+    {
+     "g": "img/curillo-1-d2-g.webp",
+     "p": "img/curillo-1-d2-p.webp",
+     "w": 1080,
+     "h": 1080,
+     "detalle": true
+    }
+   ],
+   "pendiente": false
+  },
+  {
+   "id": "tangara-multicolor",
+   "titulo": "Tángara multicolor",
+   "artista": "Juan David Cabrera (Caja de Ideas)",
+   "tecnica": "Acuarela",
+   "soporte": "Papel Strathmore Vision Mixed Media",
+   "medidas": "Aprox. 28 × 36 cm",
+   "precio": 110000,
+   "descripcion": "",
+   "anio": "",
+   "fotos": [
+    {
+     "g": "img/tangara-multicolor-1-g.webp",
+     "p": "img/tangara-multicolor-1-p.webp",
+     "w": 3259,
+     "h": 4889
+    },
+    {
+     "g": "img/tangara-multicolor-1-d1-g.webp",
+     "p": "img/tangara-multicolor-1-d1-p.webp",
+     "w": 961,
+     "h": 961,
+     "detalle": true
+    },
+    {
+     "g": "img/tangara-multicolor-1-d2-g.webp",
+     "p": "img/tangara-multicolor-1-d2-p.webp",
+     "w": 961,
+     "h": 960,
+     "detalle": true
+    }
+   ],
+   "pendiente": false
+  },
+  {
+   "id": "colibri",
+   "titulo": "Colibrí",
+   "artista": "Juan David Cabrera (Caja de Ideas)",
+   "tecnica": "Acuarela",
+   "soporte": "Papel Strathmore Vision Mixed Media",
+   "medidas": "Aprox. 28 × 36 cm",
+   "precio": 90000,
+   "descripcion": "",
+   "anio": "",
+   "fotos": [
+    {
+     "g": "img/colibri-1-g.webp",
+     "p": "img/colibri-1-p.webp",
+     "w": 3473,
+     "h": 5210
+    },
+    {
+     "g": "img/colibri-1-d1-g.webp",
+     "p": "img/colibri-1-d1-p.webp",
+     "w": 1024,
+     "h": 1024,
+     "detalle": true
+    },
+    {
+     "g": "img/colibri-1-d2-g.webp",
+     "p": "img/colibri-1-d2-p.webp",
+     "w": 1024,
+     "h": 1024,
+     "detalle": true
+    }
+   ],
+   "pendiente": false
+  },
+  {
+   "id": "guacamaya-bandera-ara-chloropterus",
+   "titulo": "Guacamaya bandera (Ara chloropterus)",
+   "artista": "Juan David Cabrera (Caja de Ideas)",
+   "tecnica": "Acuarela",
+   "soporte": "Papel Strathmore Vision Mixed Media",
+   "medidas": "Aprox. 28 × 36 cm",
+   "precio": 90000,
+   "descripcion": "",
+   "anio": "",
+   "fotos": [
+    {
+     "g": "img/guacamaya-bandera-ara-chloropterus-1-g.webp",
+     "p": "img/guacamaya-bandera-ara-chloropterus-1-p.webp",
+     "w": 3357,
+     "h": 5035
+    },
+    {
+     "g": "img/guacamaya-bandera-ara-chloropterus-1-d1-g.webp",
+     "p": "img/guacamaya-bandera-ara-chloropterus-1-d1-p.webp",
+     "w": 989,
+     "h": 989,
+     "detalle": true
+    },
+    {
+     "g": "img/guacamaya-bandera-ara-chloropterus-1-d2-g.webp",
+     "p": "img/guacamaya-bandera-ara-chloropterus-1-d2-p.webp",
+     "w": 990,
+     "h": 990,
+     "detalle": true
+    }
+   ],
+   "pendiente": false
   },
   {
    "id": "obra-14",
