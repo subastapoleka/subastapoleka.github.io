@@ -27,6 +27,7 @@ window.SUBASTA = {
    "medidas": "Aprox. 25 × 35 cm",
    "precio": 80000,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/curillo-1-g.webp",
@@ -60,6 +61,7 @@ window.SUBASTA = {
    "medidas": "Aprox. 28 × 36 cm",
    "precio": 110000,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/tangara-multicolor-1-g.webp",
@@ -93,6 +95,7 @@ window.SUBASTA = {
    "medidas": "Aprox. 28 × 36 cm",
    "precio": 90000,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/colibri-1-g.webp",
@@ -126,6 +129,7 @@ window.SUBASTA = {
    "medidas": "Aprox. 28 × 36 cm",
    "precio": 90000,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/guacamaya-bandera-ara-chloropterus-1-g.webp",
@@ -159,6 +163,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-05-1-g.webp",
@@ -192,6 +197,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-06-1-g.webp",
@@ -225,6 +231,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-07-1-g.webp",
@@ -258,6 +265,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-08-1-g.webp",
@@ -291,6 +299,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-09-1-g.webp",
@@ -324,6 +333,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-10-1-g.webp",
@@ -351,12 +361,13 @@ window.SUBASTA = {
   {
    "id": "obra-11",
    "titulo": "Obra 11",
-   "artista": "Por confirmar",
-   "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
-   "medidas": "Por confirmar",
-   "precio": null,
+   "artista": "hopeofdisamore (Instagram)",
+   "tecnica": "Acrílico",
+   "soporte": "Lienzo",
+   "medidas": "36 × 25,5 cm",
+   "precio": 50000,
    "descripcion": "",
+   "anio": "2024",
    "fotos": [
     {
      "g": "img/obra-11-1-g.webp",
@@ -382,31 +393,32 @@ window.SUBASTA = {
    "pendiente": true
   },
   {
-   "id": "obra-12",
-   "titulo": "Obra 12",
-   "artista": "Por confirmar",
-   "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
-   "medidas": "Por confirmar",
+   "id": "el-cuerpo-habitando-la-perdida",
+   "titulo": "El cuerpo habitando la pérdida",
+   "artista": "Andrea Betancur",
+   "tecnica": "Acrílico",
+   "soporte": "Lienzo",
+   "medidas": "50 × 70 cm",
    "precio": null,
    "descripcion": "",
+   "anio": "2025",
    "fotos": [
     {
-     "g": "img/obra-12-1-g.webp",
-     "p": "img/obra-12-1-p.webp",
+     "g": "img/el-cuerpo-habitando-la-perdida-1-g.webp",
+     "p": "img/el-cuerpo-habitando-la-perdida-1-p.webp",
      "w": 5903,
      "h": 3935
     },
     {
-     "g": "img/obra-12-1-d1-g.webp",
-     "p": "img/obra-12-1-d1-p.webp",
+     "g": "img/el-cuerpo-habitando-la-perdida-1-d1-g.webp",
+     "p": "img/el-cuerpo-habitando-la-perdida-1-d1-p.webp",
      "w": 1158,
      "h": 1158,
      "detalle": true
     },
     {
-     "g": "img/obra-12-1-d2-g.webp",
-     "p": "img/obra-12-1-d2-p.webp",
+     "g": "img/el-cuerpo-habitando-la-perdida-1-d2-g.webp",
+     "p": "img/el-cuerpo-habitando-la-perdida-1-d2-p.webp",
      "w": 1158,
      "h": 1158,
      "detalle": true
@@ -423,6 +435,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-13-1-g.webp",
@@ -450,12 +463,13 @@ window.SUBASTA = {
   {
    "id": "obra-14",
    "titulo": "Obra 14",
-   "artista": "Por confirmar",
-   "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
-   "medidas": "Por confirmar",
+   "artista": "Daniel Peña",
+   "tecnica": "Reproducción en yeso, modelado en arcilla polimérica, masilla epóxica, tela y pintura al óleo",
+   "soporte": "",
+   "medidas": "67 × 39 × 14 cm",
    "precio": null,
    "descripcion": "",
+   "anio": "2025",
    "fotos": [
     {
      "g": "img/obra-14-1-g.webp",
@@ -489,6 +503,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-15-1-g.webp",
@@ -522,6 +537,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-16-1-g.webp",
@@ -549,12 +565,13 @@ window.SUBASTA = {
   {
    "id": "obra-17",
    "titulo": "Obra 17",
-   "artista": "Por confirmar",
+   "artista": "Daniel Peña",
    "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
-   "medidas": "Por confirmar",
-   "precio": null,
+   "soporte": "",
+   "medidas": "50 × 15 × 19 cm",
+   "precio": 370000,
    "descripcion": "",
+   "anio": "2020",
    "fotos": [
     {
      "g": "img/obra-17-1-g.webp",
@@ -594,6 +611,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-18-1-g.webp",
@@ -627,6 +645,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-19-1-g.webp",
@@ -660,6 +679,7 @@ window.SUBASTA = {
    "medidas": "Por confirmar",
    "precio": null,
    "descripcion": "",
+   "anio": "",
    "fotos": [
     {
      "g": "img/obra-20-1-g.webp",
@@ -685,31 +705,32 @@ window.SUBASTA = {
    "pendiente": true
   },
   {
-   "id": "obra-21",
-   "titulo": "Obra 21",
-   "artista": "Por confirmar",
-   "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
-   "medidas": "Por confirmar",
+   "id": "primigenia-del-caos",
+   "titulo": "Primigenia del caos",
+   "artista": "Daniel Peña",
+   "tecnica": "Carboncillo",
+   "soporte": "Opalina",
+   "medidas": "35 × 21 cm",
    "precio": null,
    "descripcion": "",
+   "anio": "2023",
    "fotos": [
     {
-     "g": "img/obra-21-1-g.webp",
-     "p": "img/obra-21-1-p.webp",
+     "g": "img/primigenia-del-caos-1-g.webp",
+     "p": "img/primigenia-del-caos-1-p.webp",
      "w": 3561,
      "h": 5342
     },
     {
-     "g": "img/obra-21-1-d1-g.webp",
-     "p": "img/obra-21-1-d1-p.webp",
+     "g": "img/primigenia-del-caos-1-d1-g.webp",
+     "p": "img/primigenia-del-caos-1-d1-p.webp",
      "w": 1049,
      "h": 1049,
      "detalle": true
     },
     {
-     "g": "img/obra-21-1-d2-g.webp",
-     "p": "img/obra-21-1-d2-p.webp",
+     "g": "img/primigenia-del-caos-1-d2-g.webp",
+     "p": "img/primigenia-del-caos-1-d2-p.webp",
      "w": 1050,
      "h": 1050,
      "detalle": true
@@ -720,12 +741,13 @@ window.SUBASTA = {
   {
    "id": "obra-22",
    "titulo": "Obra 22",
-   "artista": "Por confirmar",
+   "artista": "Juan Sebastián Duque Vanegas",
    "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
-   "medidas": "Por confirmar",
-   "precio": null,
-   "descripcion": "",
+   "soporte": "",
+   "medidas": "60 × 45 cm",
+   "precio": 150000,
+   "descripcion": "De la serie «De los cómics a la pintura», inspirada en Alex Ross.",
+   "anio": "2025",
    "fotos": [
     {
      "g": "img/obra-22-1-g.webp",
@@ -753,12 +775,13 @@ window.SUBASTA = {
   {
    "id": "obra-23",
    "titulo": "Obra 23",
-   "artista": "Por confirmar",
+   "artista": "Juan Sebastián Duque Vanegas",
    "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
-   "medidas": "Por confirmar",
-   "precio": null,
-   "descripcion": "",
+   "soporte": "",
+   "medidas": "60 × 45 cm",
+   "precio": 150000,
+   "descripcion": "De la serie «De los cómics a la pintura», inspirada en Alex Ross.",
+   "anio": "2025",
    "fotos": [
     {
      "g": "img/obra-23-1-g.webp",

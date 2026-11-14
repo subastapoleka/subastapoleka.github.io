@@ -462,7 +462,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
     const o = obras[actual];
     $("#v-titulo").textContent = o.titulo;
     $("#v-autor").textContent = real(o.artista) ? o.artista : "Artista por confirmar";
-    $("#v-datos").innerHTML = [["Técnica", o.tecnica], ["Soporte", o.soporte], ["Medidas", o.medidas]]
+    $("#v-datos").innerHTML = [["Técnica", o.tecnica], ["Soporte", o.soporte], ["Medidas", o.medidas], ["Año", o.anio]]
       .filter(x => x[1]).map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
     $("#v-desc").textContent = o.descripcion || "";
     $("#v-precio").textContent = pesos(o.precio);
