@@ -361,7 +361,7 @@ window.SUBASTA = {
   {
    "id": "obra-11",
    "titulo": "Obra 11",
-   "artista": "hopeofdisamore (Instagram)",
+   "artista": "hopeofdisamore",
    "tecnica": "Acrílico",
    "soporte": "Lienzo",
    "medidas": "36 × 25,5 cm",
