@@ -72,14 +72,21 @@ a{color:inherit}
 .menu{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--fondo) 88%,transparent);
   backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--linea)}
 .menu .envoltura{display:flex;align-items:center;gap:28px;height:58px}
-.menu .marca{font-family:var(--gotica);font-size:1.6rem;color:var(--oro);text-decoration:none;margin-right:auto;line-height:1}
+.menu .marca{display:flex;align-items:center;text-decoration:none;margin-right:auto;line-height:1}
+.logo img{display:block;height:100%;width:auto}
+.logo .l-cla{display:none}
+:root[data-tema="claro"] .logo .l-osc{display:none}
+:root[data-tema="claro"] .logo .l-cla{display:block}
+.menu .logo{height:40px}
+.portada .logo{display:block;height:clamp(96px,14vw,140px);width:max-content;margin:0 auto 22px;filter:drop-shadow(0 4px 18px rgba(0,0,0,.35))}
+footer .logo{display:block;height:64px;width:max-content;margin:0 auto 8px}
 .menu nav{display:flex;gap:24px}
 .menu nav a{text-decoration:none;font-family:var(--titulo);font-size:1.1rem;letter-spacing:.06em;color:var(--tinta-suave)}
 .menu nav a:hover,.menu nav a[aria-current="true"]{color:var(--oro)}
 @media (max-width:560px){
   .menu .envoltura{gap:14px}
   .menu nav{gap:14px}
-  .menu .marca{font-size:1.3rem}
+  .menu .logo{height:34px}
   .tema span{display:none}
 }
 
@@ -188,6 +195,8 @@ section{padding:84px 0;scroll-margin-top:58px}
 .cierre .mes{font-family:var(--titulo);font-size:clamp(1.6rem,4vw,2.4rem);letter-spacing:.3em;text-transform:uppercase;margin-top:-4px}
 .cierre p{max-width:560px;margin:18px auto 0;color:var(--tinta)}
 .cierre .acciones{margin-top:30px}
+.cierre .musica{font-family:var(--titulo);font-size:1.35rem;letter-spacing:.02em}
+.cierre .musica a{color:var(--oro);text-underline-offset:4px}
 
 footer{border-top:1px solid var(--linea);padding:34px 20px 40px;text-align:center;color:var(--tinta-suave);font-size:.95rem}
 footer .marca{font-family:var(--titulo);font-size:1.5rem;color:var(--tinta);letter-spacing:.06em}
@@ -245,7 +254,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 <script>try{var t=new URLSearchParams(location.search).get("tema")||localStorage.getItem("tema");if(t==="claro")document.documentElement.dataset.tema="claro"}catch(e){}</script>
 <header class="menu">
   <div class="envoltura">
-    <a class="marca" href="#intro">Poleka</a>
+    <a class="marca" href="#intro" aria-label="Poleka, ir al inicio"><span class="logo "><img class="l-osc" src="recursos/poleka_logo_blanco.png" alt="Poleka"><img class="l-cla" src="recursos/poleka_logo_oscuro.png" alt="Poleka"></span></a>
     <nav aria-label="Secciones">
       <a href="#intro">Intro</a>
       <a href="#obras">Galería</a>
@@ -258,6 +267,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 <main>
   <header class="portada" id="intro">
     <div>
+      <span class="logo "><img class="l-osc" src="recursos/poleka_logo_blanco.png" alt="Poleka"><img class="l-cla" src="recursos/poleka_logo_oscuro.png" alt="Poleka"></span>
       <p class="lugar" data-campo="lugar">Poleka Café Cultural</p>
       <p class="edicion" id="edicion">Segunda</p>
       <h1 id="titulo"><span>Subasta</span><span>de Arte</span></h1>
@@ -304,6 +314,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
       <div class="dia" id="cierre-dia">4</div>
       <div class="mes" id="cierre-mes">diciembre</div>
       <p id="cierre-texto"></p>
+      <p class="musica" id="musica" hidden></p>
       <div class="acciones">
         <a class="boton" id="whatsapp" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
@@ -316,7 +327,8 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 </main>
 
 <footer>
-  <p class="marca">Poleka · Café Cultural</p>
+  <span class="logo "><img class="l-osc" src="recursos/poleka_logo_blanco.png" alt="Poleka"><img class="l-cla" src="recursos/poleka_logo_oscuro.png" alt="Poleka"></span>
+  <p class="marca">Café Cultural</p>
   <p id="pie-direccion"></p>
 </footer>
 
@@ -384,6 +396,12 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
   $("#mapa").href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("Poleka Café Cultural " + (E.direccion || "Manizales"));
   $("#horario").textContent = E.horario_visita || "";
   $("#cierre-texto").textContent = E.cierre_texto || "";
+  if ((E.musica || []).length) {
+    const grupos = E.musica.map(m => m.enlace ? `<a href="${esc(m.enlace)}" target="_blank" rel="noopener">${esc(m.nombre)}</a>` : esc(m.nombre));
+    const lista = grupos.length > 1 ? grupos.slice(0, -1).join(", ") + " y " + grupos.at(-1) : grupos[0];
+    $("#musica").innerHTML = `${E.hora_musica ? esc(E.hora_musica) + " · " : ""}Música en vivo con ${lista}`;
+    $("#musica").hidden = false;
+  }
   $("#pasos").innerHTML = (E.como_pujar || []).map((t, i) =>
     `<div class="paso"><div class="num">${["I","II","III","IV","V","VI"][i] || i+1}</div><p>${esc(t)}</p></div>`).join("");
   const tel = (E.contacto_whatsapp || "").replace(/\D/g, "");

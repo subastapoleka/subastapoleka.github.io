@@ -4,17 +4,28 @@ window.SUBASTA = {
   "lugar": "Poleka Café Cultural",
   "direccion": "Calle 62 #24-24, Barrio La Estrella, Manizales",
   "fecha_cierre": "2026-12-04",
-  "hora_cierre": "",
+  "hora_cierre": "5:00 p.m.",
   "horario_visita": "Lunes a sábado desde las 8:00 a.m. · Domingos y festivos desde las 11:00 a.m.",
-  "cierre_texto": "Noche de cierre con música en vivo y más sorpresas por anunciar.",
+  "cierre_texto": "Noche de cierre con música en vivo, emprendimientos y más sorpresas por anunciar.",
   "contacto_nombre": "Daniel Peña",
   "contacto_whatsapp": "+57 321 9880468",
   "instagram": "https://www.instagram.com/poleka_cafe_cultural/",
+  "hora_musica": "6:30 p.m.",
   "como_pujar": [
    "Visita Poleka y mira las obras en persona.",
    "Escribe tu nombre y tu oferta en la hoja que está junto a la obra. Debe superar la última oferta.",
    "¿No puedes ir? Encarga a alguien de confianza que firme la hoja por ti.",
    "La oferta más alta al cierre del 4 de diciembre se lleva la obra."
+  ],
+  "musica": [
+   {
+    "nombre": "Andreina.music",
+    "enlace": "https://www.instagram.com/andreina.music/"
+   },
+   {
+    "nombre": "Mala Yerba",
+    "enlace": ""
+   }
   ]
  },
  "obras": [
@@ -801,6 +812,74 @@ window.SUBASTA = {
      "p": "img/obra-23-1-d2-p.webp",
      "w": 987,
      "h": 987,
+     "detalle": true
+    }
+   ],
+   "pendiente": true
+  },
+  {
+   "id": "obra-24",
+   "titulo": "Obra 24",
+   "artista": "Sofia",
+   "tecnica": "Por confirmar",
+   "soporte": "Por confirmar",
+   "medidas": "Por confirmar",
+   "precio": null,
+   "descripcion": "",
+   "anio": "",
+   "fotos": [
+    {
+     "g": "img/obra-24-1-g.webp",
+     "p": "img/obra-24-1-p.webp",
+     "w": 1204,
+     "h": 1600
+    },
+    {
+     "g": "img/obra-24-1-d1-g.webp",
+     "p": "img/obra-24-1-d1-p.webp",
+     "w": 356,
+     "h": 357,
+     "detalle": true
+    },
+    {
+     "g": "img/obra-24-1-d2-g.webp",
+     "p": "img/obra-24-1-d2-p.webp",
+     "w": 356,
+     "h": 356,
+     "detalle": true
+    }
+   ],
+   "pendiente": true
+  },
+  {
+   "id": "obra-25",
+   "titulo": "Obra 25",
+   "artista": "Sofia",
+   "tecnica": "Por confirmar",
+   "soporte": "Por confirmar",
+   "medidas": "Por confirmar",
+   "precio": null,
+   "descripcion": "",
+   "anio": "",
+   "fotos": [
+    {
+     "g": "img/obra-25-1-g.webp",
+     "p": "img/obra-25-1-p.webp",
+     "w": 1204,
+     "h": 1600
+    },
+    {
+     "g": "img/obra-25-1-d1-g.webp",
+     "p": "img/obra-25-1-d1-p.webp",
+     "w": 356,
+     "h": 356,
+     "detalle": true
+    },
+    {
+     "g": "img/obra-25-1-d2-g.webp",
+     "p": "img/obra-25-1-d2-p.webp",
+     "w": 356,
+     "h": 356,
      "detalle": true
     }
    ],
