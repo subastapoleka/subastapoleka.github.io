@@ -43,21 +43,21 @@ window.SUBASTA = {
     {
      "g": "img/angel-1-g.webp",
      "p": "img/angel-1-p.webp",
-     "w": 3607,
-     "h": 5226
+     "w": 2977,
+     "h": 4454
     },
     {
      "g": "img/angel-1-d1-g.webp",
      "p": "img/angel-1-d1-p.webp",
-     "w": 1068,
-     "h": 1068,
+     "w": 890,
+     "h": 890,
      "detalle": true
     },
     {
      "g": "img/angel-1-d2-g.webp",
      "p": "img/angel-1-d2-p.webp",
-     "w": 1068,
-     "h": 1068,
+     "w": 889,
+     "h": 890,
      "detalle": true
     }
    ],
