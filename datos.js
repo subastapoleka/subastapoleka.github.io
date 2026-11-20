@@ -30,9 +30,9 @@ window.SUBASTA = {
  },
  "obras": [
   {
-   "id": "obra-05",
-   "titulo": "Obra 05",
-   "artista": "Por confirmar",
+   "id": "angel",
+   "titulo": "Angel",
+   "artista": "Daniel Peña",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -41,23 +41,23 @@ window.SUBASTA = {
    "anio": "",
    "fotos": [
     {
-     "g": "img/obra-05-1-g.webp",
-     "p": "img/obra-05-1-p.webp",
-     "w": 3079,
-     "h": 4618
+     "g": "img/angel-1-g.webp",
+     "p": "img/angel-1-p.webp",
+     "w": 3607,
+     "h": 5226
     },
     {
-     "g": "img/obra-05-1-d1-g.webp",
-     "p": "img/obra-05-1-d1-p.webp",
-     "w": 907,
-     "h": 908,
+     "g": "img/angel-1-d1-g.webp",
+     "p": "img/angel-1-d1-p.webp",
+     "w": 1068,
+     "h": 1068,
      "detalle": true
     },
     {
-     "g": "img/obra-05-1-d2-g.webp",
-     "p": "img/obra-05-1-d2-p.webp",
-     "w": 908,
-     "h": 908,
+     "g": "img/angel-1-d2-g.webp",
+     "p": "img/angel-1-d2-p.webp",
+     "w": 1068,
+     "h": 1068,
      "detalle": true
     }
    ],
@@ -66,7 +66,7 @@ window.SUBASTA = {
   {
    "id": "obra-06",
    "titulo": "Obra 06",
-   "artista": "Por confirmar",
+   "artista": "Sebastian Valencia",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -100,7 +100,7 @@ window.SUBASTA = {
   {
    "id": "obra-07",
    "titulo": "Obra 07",
-   "artista": "Por confirmar",
+   "artista": "Sebastian Valencia",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -134,7 +134,7 @@ window.SUBASTA = {
   {
    "id": "obra-08",
    "titulo": "Obra 08",
-   "artista": "Por confirmar",
+   "artista": "Sebastian Valencia",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -168,7 +168,7 @@ window.SUBASTA = {
   {
    "id": "obra-09",
    "titulo": "Obra 09",
-   "artista": "Por confirmar",
+   "artista": "Sebastian Valencia",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -202,7 +202,7 @@ window.SUBASTA = {
   {
    "id": "obra-10",
    "titulo": "Obra 10",
-   "artista": "Por confirmar",
+   "artista": "Sebastian Valencia",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -213,21 +213,21 @@ window.SUBASTA = {
     {
      "g": "img/obra-10-1-g.webp",
      "p": "img/obra-10-1-p.webp",
-     "w": 2509,
-     "h": 3764
+     "w": 2275,
+     "h": 2655
     },
     {
      "g": "img/obra-10-1-d1-g.webp",
      "p": "img/obra-10-1-d1-p.webp",
-     "w": 739,
-     "h": 740,
+     "w": 674,
+     "h": 673,
      "detalle": true
     },
     {
      "g": "img/obra-10-1-d2-g.webp",
      "p": "img/obra-10-1-d2-p.webp",
-     "w": 739,
-     "h": 740,
+     "w": 673,
+     "h": 674,
      "detalle": true
     }
    ],
@@ -236,7 +236,7 @@ window.SUBASTA = {
   {
    "id": "obra-11",
    "titulo": "Obra 11",
-   "artista": "hopeofdisamore",
+   "artista": "Andrea Betancur (hopeofdisamore)",
    "tecnica": "Acrílico",
    "soporte": "Lienzo",
    "medidas": "36 × 25,5 cm",
@@ -247,21 +247,21 @@ window.SUBASTA = {
     {
      "g": "img/obra-11-1-g.webp",
      "p": "img/obra-11-1-p.webp",
-     "w": 4000,
-     "h": 6000
+     "w": 3811,
+     "h": 4911
     },
     {
      "g": "img/obra-11-1-d1-g.webp",
      "p": "img/obra-11-1-d1-p.webp",
-     "w": 1179,
-     "h": 1179,
+     "w": 1132,
+     "h": 1132,
      "detalle": true
     },
     {
      "g": "img/obra-11-1-d2-g.webp",
      "p": "img/obra-11-1-d2-p.webp",
-     "w": 1179,
-     "h": 1179,
+     "w": 1132,
+     "h": 1132,
      "detalle": true
     }
    ],
@@ -274,62 +274,62 @@ window.SUBASTA = {
    "tecnica": "Acrílico",
    "soporte": "Lienzo",
    "medidas": "50 × 70 cm",
-   "precio": null,
+   "precio": 150000,
    "descripcion": "",
    "anio": "2025",
    "fotos": [
     {
      "g": "img/el-cuerpo-habitando-la-perdida-1-g.webp",
      "p": "img/el-cuerpo-habitando-la-perdida-1-p.webp",
-     "w": 5903,
-     "h": 3935
+     "w": 5542,
+     "h": 3856
     },
     {
      "g": "img/el-cuerpo-habitando-la-perdida-1-d1-g.webp",
      "p": "img/el-cuerpo-habitando-la-perdida-1-d1-p.webp",
-     "w": 1158,
-     "h": 1158,
+     "w": 1151,
+     "h": 1151,
      "detalle": true
     },
     {
      "g": "img/el-cuerpo-habitando-la-perdida-1-d2-g.webp",
      "p": "img/el-cuerpo-habitando-la-perdida-1-d2-p.webp",
-     "w": 1158,
-     "h": 1158,
+     "w": 1151,
+     "h": 1151,
      "detalle": true
     }
    ],
-   "pendiente": true
+   "pendiente": false
   },
   {
-   "id": "obra-13",
-   "titulo": "Obra 13",
-   "artista": "Por confirmar",
-   "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
+   "id": "reina-matrix-umbrea",
+   "titulo": "Reina Matrix Umbrea",
+   "artista": "Jhon Sebastian Tabares Ceballos",
+   "tecnica": "Escultura tradicional",
+   "soporte": "Yeso tipo 3, arcilla polimérica, porcelana fría",
    "medidas": "Por confirmar",
-   "precio": null,
+   "precio": 350000,
    "descripcion": "",
-   "anio": "",
+   "anio": "2025",
    "fotos": [
     {
-     "g": "img/obra-13-1-g.webp",
-     "p": "img/obra-13-1-p.webp",
-     "w": 4000,
-     "h": 6000
+     "g": "img/reina-matrix-umbrea-1-g.webp",
+     "p": "img/reina-matrix-umbrea-1-p.webp",
+     "w": 3491,
+     "h": 4778
     },
     {
-     "g": "img/obra-13-1-d1-g.webp",
-     "p": "img/obra-13-1-d1-p.webp",
-     "w": 1179,
-     "h": 1179,
+     "g": "img/reina-matrix-umbrea-1-d1-g.webp",
+     "p": "img/reina-matrix-umbrea-1-d1-p.webp",
+     "w": 1048,
+     "h": 1047,
      "detalle": true
     },
     {
-     "g": "img/obra-13-1-d2-g.webp",
-     "p": "img/obra-13-1-d2-p.webp",
-     "w": 1179,
-     "h": 1179,
+     "g": "img/reina-matrix-umbrea-1-d2-g.webp",
+     "p": "img/reina-matrix-umbrea-1-d2-p.webp",
+     "w": 1047,
+     "h": 1048,
      "detalle": true
     }
    ],
@@ -350,20 +350,20 @@ window.SUBASTA = {
      "g": "img/curillo-1-g.webp",
      "p": "img/curillo-1-p.webp",
      "w": 3663,
-     "h": 5495
+     "h": 4591
     },
     {
      "g": "img/curillo-1-d1-g.webp",
      "p": "img/curillo-1-d1-p.webp",
-     "w": 1080,
-     "h": 1080,
+     "w": 1097,
+     "h": 1097,
      "detalle": true
     },
     {
      "g": "img/curillo-1-d2-g.webp",
      "p": "img/curillo-1-d2-p.webp",
-     "w": 1080,
-     "h": 1080,
+     "w": 1098,
+     "h": 1097,
      "detalle": true
     }
    ],
@@ -383,21 +383,21 @@ window.SUBASTA = {
     {
      "g": "img/tangara-multicolor-1-g.webp",
      "p": "img/tangara-multicolor-1-p.webp",
-     "w": 3259,
-     "h": 4889
+     "w": 3156,
+     "h": 4171
     },
     {
      "g": "img/tangara-multicolor-1-d1-g.webp",
      "p": "img/tangara-multicolor-1-d1-p.webp",
-     "w": 961,
-     "h": 961,
+     "w": 946,
+     "h": 945,
      "detalle": true
     },
     {
      "g": "img/tangara-multicolor-1-d2-g.webp",
      "p": "img/tangara-multicolor-1-d2-p.webp",
-     "w": 961,
-     "h": 960,
+     "w": 945,
+     "h": 946,
      "detalle": true
     }
    ],
@@ -418,20 +418,20 @@ window.SUBASTA = {
      "g": "img/colibri-1-g.webp",
      "p": "img/colibri-1-p.webp",
      "w": 3473,
-     "h": 5210
+     "h": 4527
     },
     {
      "g": "img/colibri-1-d1-g.webp",
      "p": "img/colibri-1-d1-p.webp",
-     "w": 1024,
-     "h": 1024,
+     "w": 1030,
+     "h": 1029,
      "detalle": true
     },
     {
      "g": "img/colibri-1-d2-g.webp",
      "p": "img/colibri-1-d2-p.webp",
-     "w": 1024,
-     "h": 1024,
+     "w": 1029,
+     "h": 1029,
      "detalle": true
     }
    ],
@@ -451,131 +451,143 @@ window.SUBASTA = {
     {
      "g": "img/guacamaya-bandera-ara-chloropterus-1-g.webp",
      "p": "img/guacamaya-bandera-ara-chloropterus-1-p.webp",
-     "w": 3357,
-     "h": 5035
+     "w": 3346,
+     "h": 4236
     },
     {
      "g": "img/guacamaya-bandera-ara-chloropterus-1-d1-g.webp",
      "p": "img/guacamaya-bandera-ara-chloropterus-1-d1-p.webp",
-     "w": 989,
-     "h": 989,
+     "w": 996,
+     "h": 996,
      "detalle": true
     },
     {
      "g": "img/guacamaya-bandera-ara-chloropterus-1-d2-g.webp",
      "p": "img/guacamaya-bandera-ara-chloropterus-1-d2-p.webp",
-     "w": 990,
-     "h": 990,
+     "w": 996,
+     "h": 996,
      "detalle": true
     }
    ],
    "pendiente": false
   },
   {
-   "id": "obra-14",
-   "titulo": "Obra 14",
+   "id": "xenomorfosis-xha-drial",
+   "titulo": "Xenomorfosis xha,drial",
    "artista": "Daniel Peña",
    "tecnica": "Reproducción en yeso, modelado en arcilla polimérica, masilla epóxica, tela y pintura al óleo",
    "soporte": "",
    "medidas": "67 × 39 × 14 cm",
-   "precio": null,
+   "precio": 1250000,
    "descripcion": "",
    "anio": "2025",
    "fotos": [
     {
-     "g": "img/obra-14-1-g.webp",
-     "p": "img/obra-14-1-p.webp",
-     "w": 3376,
-     "h": 5444
+     "g": "img/xenomorfosis-xha-drial-1-g.webp",
+     "p": "img/xenomorfosis-xha-drial-1-p.webp",
+     "w": 3479,
+     "h": 5625
     },
     {
-     "g": "img/obra-14-1-d1-g.webp",
-     "p": "img/obra-14-1-d1-p.webp",
-     "w": 1007,
-     "h": 1006,
+     "g": "img/xenomorfosis-xha-drial-1-d1-g.webp",
+     "p": "img/xenomorfosis-xha-drial-1-d1-p.webp",
+     "w": 1037,
+     "h": 1037,
      "detalle": true
     },
     {
-     "g": "img/obra-14-1-d2-g.webp",
-     "p": "img/obra-14-1-d2-p.webp",
-     "w": 1006,
-     "h": 1007,
+     "g": "img/xenomorfosis-xha-drial-1-d2-g.webp",
+     "p": "img/xenomorfosis-xha-drial-1-d2-p.webp",
+     "w": 1037,
+     "h": 1037,
      "detalle": true
     }
    ],
-   "pendiente": true
+   "pendiente": false
   },
   {
-   "id": "obra-15",
-   "titulo": "Obra 15",
-   "artista": "Por confirmar",
-   "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
+   "id": "neutrofilo-quiron",
+   "titulo": "Neutrófilo Quirón",
+   "artista": "Jhon Sebastian Tabares Ceballos",
+   "tecnica": "Escultura",
+   "soporte": "Yeso tipo 3 arcilla polimérica porcelana fría",
    "medidas": "Por confirmar",
-   "precio": null,
+   "precio": 600000,
    "descripcion": "",
-   "anio": "",
+   "anio": "2024",
    "fotos": [
     {
-     "g": "img/obra-15-1-g.webp",
-     "p": "img/obra-15-1-p.webp",
+     "g": "img/neutrofilo-quiron-1-g.webp",
+     "p": "img/neutrofilo-quiron-1-p.webp",
      "w": 4000,
      "h": 6000
     },
     {
-     "g": "img/obra-15-1-d1-g.webp",
-     "p": "img/obra-15-1-d1-p.webp",
+     "g": "img/neutrofilo-quiron-1-d1-g.webp",
+     "p": "img/neutrofilo-quiron-1-d1-p.webp",
      "w": 1180,
      "h": 1179,
      "detalle": true
     },
     {
-     "g": "img/obra-15-1-d2-g.webp",
-     "p": "img/obra-15-1-d2-p.webp",
+     "g": "img/neutrofilo-quiron-1-d2-g.webp",
+     "p": "img/neutrofilo-quiron-1-d2-p.webp",
      "w": 1179,
      "h": 1179,
      "detalle": true
+    },
+    {
+     "g": "img/neutrofilo-quiron-2-g.webp",
+     "p": "img/neutrofilo-quiron-2-p.webp",
+     "w": 4000,
+     "h": 6000
     }
    ],
    "pendiente": true
   },
   {
-   "id": "obra-16",
-   "titulo": "Obra 16",
-   "artista": "Por confirmar",
-   "tecnica": "Por confirmar",
-   "soporte": "Por confirmar",
+   "id": "ciempies-vetustu-anciano",
+   "titulo": "Ciempiés Vetustu Anciano",
+   "artista": "Jhon Sebastian Tabares Ceballos",
+   "tecnica": "Escultura",
+   "soporte": "Yeso tipo 3 arcilla polimérica porcelana fría",
    "medidas": "Por confirmar",
-   "precio": null,
+   "precio": 600000,
    "descripcion": "",
-   "anio": "",
+   "anio": "2025",
    "fotos": [
     {
-     "g": "img/obra-16-1-g.webp",
-     "p": "img/obra-16-1-p.webp",
+     "g": "img/ciempies-vetustu-anciano-1-g.webp",
+     "p": "img/ciempies-vetustu-anciano-1-p.webp",
      "w": 4000,
      "h": 6000
     },
     {
-     "g": "img/obra-16-1-d1-g.webp",
-     "p": "img/obra-16-1-d1-p.webp",
+     "g": "img/ciempies-vetustu-anciano-1-d1-g.webp",
+     "p": "img/ciempies-vetustu-anciano-1-d1-p.webp",
      "w": 1180,
      "h": 1179,
      "detalle": true
     },
     {
-     "g": "img/obra-16-1-d2-g.webp",
-     "p": "img/obra-16-1-d2-p.webp",
+     "g": "img/ciempies-vetustu-anciano-1-d2-g.webp",
+     "p": "img/ciempies-vetustu-anciano-1-d2-p.webp",
      "w": 1179,
-     "h": 1180,
+     "h": 1179,
      "detalle": true
+    },
+    {
+     "g": "img/ciempies-vetustu-anciano-2-g.webp",
+     "p": "img/ciempies-vetustu-anciano-2-p.webp",
+     "w": 4000,
+     "h": 6000
     }
    ],
    "pendiente": true
   },
   {
-   "id": "obra-17",
-   "titulo": "Obra 17",
+   "id": "simbiosis",
+   "titulo": "Simbiosis",
    "artista": "Daniel Peña",
    "tecnica": "Por confirmar",
    "soporte": "",
@@ -585,28 +597,28 @@ window.SUBASTA = {
    "anio": "2020",
    "fotos": [
     {
-     "g": "img/obra-17-1-g.webp",
-     "p": "img/obra-17-1-p.webp",
-     "w": 3357,
-     "h": 5035
+     "g": "img/simbiosis-1-g.webp",
+     "p": "img/simbiosis-1-p.webp",
+     "w": 4000,
+     "h": 6000
     },
     {
-     "g": "img/obra-17-1-d1-g.webp",
-     "p": "img/obra-17-1-d1-p.webp",
-     "w": 990,
-     "h": 990,
+     "g": "img/simbiosis-1-d1-g.webp",
+     "p": "img/simbiosis-1-d1-p.webp",
+     "w": 1179,
+     "h": 1180,
      "detalle": true
     },
     {
-     "g": "img/obra-17-1-d2-g.webp",
-     "p": "img/obra-17-1-d2-p.webp",
-     "w": 990,
-     "h": 989,
+     "g": "img/simbiosis-1-d2-g.webp",
+     "p": "img/simbiosis-1-d2-p.webp",
+     "w": 1179,
+     "h": 1179,
      "detalle": true
     },
     {
-     "g": "img/obra-17-2-g.webp",
-     "p": "img/obra-17-2-p.webp",
+     "g": "img/simbiosis-2-g.webp",
+     "p": "img/simbiosis-2-p.webp",
      "w": 4000,
      "h": 6000
     }
@@ -614,9 +626,9 @@ window.SUBASTA = {
    "pendiente": true
   },
   {
-   "id": "obra-18",
-   "titulo": "Obra 18",
-   "artista": "Por confirmar",
+   "id": "chytreon",
+   "titulo": "Chytreon",
+   "artista": "Daniel Peña",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -625,32 +637,38 @@ window.SUBASTA = {
    "anio": "",
    "fotos": [
     {
-     "g": "img/obra-18-1-g.webp",
-     "p": "img/obra-18-1-p.webp",
+     "g": "img/chytreon-1-g.webp",
+     "p": "img/chytreon-1-p.webp",
      "w": 4000,
      "h": 6000
     },
     {
-     "g": "img/obra-18-1-d1-g.webp",
-     "p": "img/obra-18-1-d1-p.webp",
+     "g": "img/chytreon-1-d1-g.webp",
+     "p": "img/chytreon-1-d1-p.webp",
      "w": 1179,
      "h": 1179,
      "detalle": true
     },
     {
-     "g": "img/obra-18-1-d2-g.webp",
-     "p": "img/obra-18-1-d2-p.webp",
+     "g": "img/chytreon-1-d2-g.webp",
+     "p": "img/chytreon-1-d2-p.webp",
      "w": 1179,
      "h": 1179,
      "detalle": true
+    },
+    {
+     "g": "img/chytreon-2-g.webp",
+     "p": "img/chytreon-2-p.webp",
+     "w": 4000,
+     "h": 6000
     }
    ],
    "pendiente": true
   },
   {
-   "id": "obra-19",
-   "titulo": "Obra 19",
-   "artista": "Por confirmar",
+   "id": "angel-de-la-guarda",
+   "titulo": "Angel de la guarda",
+   "artista": "Daniel Peña",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -659,32 +677,32 @@ window.SUBASTA = {
    "anio": "",
    "fotos": [
     {
-     "g": "img/obra-19-1-g.webp",
-     "p": "img/obra-19-1-p.webp",
-     "w": 4275,
-     "h": 2850
+     "g": "img/angel-de-la-guarda-1-g.webp",
+     "p": "img/angel-de-la-guarda-1-p.webp",
+     "w": 3904,
+     "h": 2845
     },
     {
-     "g": "img/obra-19-1-d1-g.webp",
-     "p": "img/obra-19-1-d1-p.webp",
-     "w": 838,
-     "h": 838,
+     "g": "img/angel-de-la-guarda-1-d1-g.webp",
+     "p": "img/angel-de-la-guarda-1-d1-p.webp",
+     "w": 841,
+     "h": 841,
      "detalle": true
     },
     {
-     "g": "img/obra-19-1-d2-g.webp",
-     "p": "img/obra-19-1-d2-p.webp",
-     "w": 839,
-     "h": 839,
+     "g": "img/angel-de-la-guarda-1-d2-g.webp",
+     "p": "img/angel-de-la-guarda-1-d2-p.webp",
+     "w": 841,
+     "h": 841,
      "detalle": true
     }
    ],
    "pendiente": true
   },
   {
-   "id": "obra-20",
-   "titulo": "Obra 20",
-   "artista": "Por confirmar",
+   "id": "la-virgen",
+   "titulo": "La virgen",
+   "artista": "Daniel Peña",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
@@ -693,23 +711,23 @@ window.SUBASTA = {
    "anio": "",
    "fotos": [
     {
-     "g": "img/obra-20-1-g.webp",
-     "p": "img/obra-20-1-p.webp",
+     "g": "img/la-virgen-1-g.webp",
+     "p": "img/la-virgen-1-p.webp",
      "w": 3181,
-     "h": 4771
+     "h": 4422
     },
     {
-     "g": "img/obra-20-1-d1-g.webp",
-     "p": "img/obra-20-1-d1-p.webp",
-     "w": 937,
-     "h": 938,
+     "g": "img/la-virgen-1-d1-g.webp",
+     "p": "img/la-virgen-1-d1-p.webp",
+     "w": 953,
+     "h": 953,
      "detalle": true
     },
     {
-     "g": "img/obra-20-1-d2-g.webp",
-     "p": "img/obra-20-1-d2-p.webp",
-     "w": 938,
-     "h": 937,
+     "g": "img/la-virgen-1-d2-g.webp",
+     "p": "img/la-virgen-1-d2-p.webp",
+     "w": 953,
+     "h": 953,
      "detalle": true
     }
    ],
@@ -729,29 +747,29 @@ window.SUBASTA = {
     {
      "g": "img/primigenia-del-caos-1-g.webp",
      "p": "img/primigenia-del-caos-1-p.webp",
-     "w": 3561,
-     "h": 5342
+     "w": 3217,
+     "h": 4765
     },
     {
      "g": "img/primigenia-del-caos-1-d1-g.webp",
      "p": "img/primigenia-del-caos-1-d1-p.webp",
-     "w": 1049,
-     "h": 1049,
+     "w": 951,
+     "h": 950,
      "detalle": true
     },
     {
      "g": "img/primigenia-del-caos-1-d2-g.webp",
      "p": "img/primigenia-del-caos-1-d2-p.webp",
-     "w": 1050,
-     "h": 1050,
+     "w": 950,
+     "h": 951,
      "detalle": true
     }
    ],
    "pendiente": true
   },
   {
-   "id": "obra-22",
-   "titulo": "Obra 22",
+   "id": "batman",
+   "titulo": "Batman",
    "artista": "Juan Sebastián Duque Vanegas",
    "tecnica": "Óleo",
    "soporte": "Lienzo",
@@ -761,31 +779,31 @@ window.SUBASTA = {
    "anio": "2025",
    "fotos": [
     {
-     "g": "img/obra-22-1-g.webp",
-     "p": "img/obra-22-1-p.webp",
-     "w": 3717,
-     "h": 5576
+     "g": "img/batman-1-g.webp",
+     "p": "img/batman-1-p.webp",
+     "w": 3686,
+     "h": 5470
     },
     {
-     "g": "img/obra-22-1-d1-g.webp",
-     "p": "img/obra-22-1-d1-p.webp",
+     "g": "img/batman-1-d1-g.webp",
+     "p": "img/batman-1-d1-p.webp",
      "w": 1095,
      "h": 1096,
      "detalle": true
     },
     {
-     "g": "img/obra-22-1-d2-g.webp",
-     "p": "img/obra-22-1-d2-p.webp",
-     "w": 1096,
+     "g": "img/batman-1-d2-g.webp",
+     "p": "img/batman-1-d2-p.webp",
+     "w": 1095,
      "h": 1095,
      "detalle": true
     }
    ],
-   "pendiente": true
+   "pendiente": false
   },
   {
-   "id": "obra-23",
-   "titulo": "Obra 23",
+   "id": "superman",
+   "titulo": "Superman",
    "artista": "Juan Sebastián Duque Vanegas",
    "tecnica": "Óleo",
    "soporte": "Lienzo",
@@ -795,31 +813,31 @@ window.SUBASTA = {
    "anio": "2025",
    "fotos": [
     {
-     "g": "img/obra-23-1-g.webp",
-     "p": "img/obra-23-1-p.webp",
-     "w": 3347,
-     "h": 5020
+     "g": "img/superman-1-g.webp",
+     "p": "img/superman-1-p.webp",
+     "w": 3341,
+     "h": 4920
     },
     {
-     "g": "img/obra-23-1-d1-g.webp",
-     "p": "img/obra-23-1-d1-p.webp",
-     "w": 987,
-     "h": 987,
+     "g": "img/superman-1-d1-g.webp",
+     "p": "img/superman-1-d1-p.webp",
+     "w": 1000,
+     "h": 1000,
      "detalle": true
     },
     {
-     "g": "img/obra-23-1-d2-g.webp",
-     "p": "img/obra-23-1-d2-p.webp",
-     "w": 987,
-     "h": 987,
+     "g": "img/superman-1-d2-g.webp",
+     "p": "img/superman-1-d2-p.webp",
+     "w": 1001,
+     "h": 1001,
      "detalle": true
     }
    ],
-   "pendiente": true
+   "pendiente": false
   },
   {
-   "id": "obra-24",
-   "titulo": "Obra 24",
+   "id": "putrefaccion",
+   "titulo": "Putrefaccion",
    "artista": "Sofia",
    "tecnica": "Por confirmar",
    "soporte": "Por confirmar",
@@ -829,21 +847,21 @@ window.SUBASTA = {
    "anio": "",
    "fotos": [
     {
-     "g": "img/obra-24-1-g.webp",
-     "p": "img/obra-24-1-p.webp",
+     "g": "img/putrefaccion-1-g.webp",
+     "p": "img/putrefaccion-1-p.webp",
      "w": 1204,
      "h": 1600
     },
     {
-     "g": "img/obra-24-1-d1-g.webp",
-     "p": "img/obra-24-1-d1-p.webp",
+     "g": "img/putrefaccion-1-d1-g.webp",
+     "p": "img/putrefaccion-1-d1-p.webp",
      "w": 356,
      "h": 357,
      "detalle": true
     },
     {
-     "g": "img/obra-24-1-d2-g.webp",
-     "p": "img/obra-24-1-d2-p.webp",
+     "g": "img/putrefaccion-1-d2-g.webp",
+     "p": "img/putrefaccion-1-d2-p.webp",
      "w": 356,
      "h": 356,
      "detalle": true
@@ -852,10 +870,10 @@ window.SUBASTA = {
    "pendiente": true
   },
   {
-   "id": "obra-25",
-   "titulo": "Obra 25",
+   "id": "tributo-bosquejo-blacksad",
+   "titulo": "Tributo Bosquejo Blacksad",
    "artista": "Sofia",
-   "tecnica": "Por confirmar",
+   "tecnica": "Lápiz de color",
    "soporte": "Por confirmar",
    "medidas": "Por confirmar",
    "precio": null,
@@ -863,23 +881,23 @@ window.SUBASTA = {
    "anio": "",
    "fotos": [
     {
-     "g": "img/obra-25-1-g.webp",
-     "p": "img/obra-25-1-p.webp",
-     "w": 1204,
-     "h": 1600
+     "g": "img/tributo-bosquejo-blacksad-1-g.webp",
+     "p": "img/tributo-bosquejo-blacksad-1-p.webp",
+     "w": 1003,
+     "h": 1529
     },
     {
-     "g": "img/obra-25-1-d1-g.webp",
-     "p": "img/obra-25-1-d1-p.webp",
-     "w": 356,
-     "h": 356,
+     "g": "img/tributo-bosquejo-blacksad-1-d1-g.webp",
+     "p": "img/tributo-bosquejo-blacksad-1-d1-p.webp",
+     "w": 299,
+     "h": 300,
      "detalle": true
     },
     {
-     "g": "img/obra-25-1-d2-g.webp",
-     "p": "img/obra-25-1-d2-p.webp",
-     "w": 356,
-     "h": 356,
+     "g": "img/tributo-bosquejo-blacksad-1-d2-g.webp",
+     "p": "img/tributo-bosquejo-blacksad-1-d2-p.webp",
+     "w": 299,
+     "h": 299,
      "detalle": true
     }
    ],
