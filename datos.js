@@ -23,7 +23,7 @@ window.SUBASTA = {
     "enlace": "https://www.instagram.com/andreina.music/"
    },
    {
-    "nombre": "Mala Yerba",
+    "nombre": "Mala Hierba",
     "enlace": ""
    }
   ]

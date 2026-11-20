@@ -150,11 +150,13 @@ section{padding:84px 0;scroll-margin-top:58px}
 
 /* Galería */
 #obras{padding-top:8px}
-.filtros{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+.filtros{display:flex;gap:6px;margin:0 0 22px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.filtros::-webkit-scrollbar{display:none}
 .filtros button{
-  font:inherit;font-size:1rem;cursor:pointer;color:var(--tinta-suave);
-  background:transparent;border:1px solid var(--linea);border-radius:999px;padding:5px 16px;
+  flex:none;font:inherit;font-size:.88rem;letter-spacing:.04em;cursor:pointer;color:var(--tinta-suave);
+  background:transparent;border:1px solid var(--linea);border-radius:999px;padding:2px 13px;
 }
+.filtros button:hover{color:var(--tinta);border-color:var(--ambar)}
 .filtros button[aria-pressed="true"]{color:#1a0d04;background:var(--ambar);border-color:var(--ambar)}
 .galeria{columns:4 250px;column-gap:22px}
 .obra{cursor:pointer;display:block;width:100%;text-align:left;break-inside:avoid;margin:0 0 26px;
@@ -438,9 +440,19 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
   ["intro", "obras", "info"].forEach(id => obs.observe(document.getElementById(id)));
 
   /* --- Galería --- */
+  // Agrupa la técnica escrita en el Excel en pocas categorías para el filtro
+  // (escultura va primero porque algunas mencionan "pintura al óleo" como acabado)
+  const CATEGORIAS = [
+    ["Escultura", /escultura|yeso|arcilla|masilla|resina|bronce|porcelana/i],
+    ["Grabado", /grabado|xilograf|linograb|aguafuerte|litograf/i],
+    ["Acuarela", /acuarela/i],
+    ["Pintura", /óleo|oleo|acr[ií]lico|pintura|gouache|vinilo/i],
+    ["Dibujo", /dibujo|carboncillo|grafito|l[aá]piz|tinta|pastel/i],
+  ];
+  const categoria = o => real(o.tecnica) ? (CATEGORIAS.find(([, re]) => re.test(o.tecnica)) || [""])[0] : "";
   const galeria = $("#galeria");
   function pintar(filtro) {
-    galeria.innerHTML = obras.map((o, i) => (filtro && o.tecnica !== filtro) ? "" : `
+    galeria.innerHTML = obras.map((o, i) => (filtro && categoria(o) !== filtro) ? "" : `
       <button class="obra" data-i="${i}" aria-label="Ver ${esc(o.titulo)}">
         <div class="marco"><img src="${o.fotos[0].p}" width="${o.fotos[0].w}" height="${o.fotos[0].h}" alt="${esc(o.titulo)}, de ${esc(o.artista)}" loading="lazy"></div>
         <div class="pie"><b>${esc(o.titulo)}</b><span>${o.precio == null ? "" : pesos(o.precio)}</span></div>
@@ -449,10 +461,11 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
   pintar();
   galeria.addEventListener("click", e => { const b = e.target.closest(".obra"); if (b) abrir(+b.dataset.i); });
 
-  const tecnicas = [...new Set(obras.map(o => o.tecnica).filter(real))];
-  if (tecnicas.length > 1) {
+  const categorias = [...new Set(obras.map(categoria).filter(Boolean))]
+    .sort((a, b) => CATEGORIAS.findIndex(c => c[0] === a) - CATEGORIAS.findIndex(c => c[0] === b));
+  if (categorias.length > 1) {
     const f = $("#filtros"); f.hidden = false;
-    f.innerHTML = ["Todas", ...tecnicas].map((t, i) => `<button aria-pressed="${i===0}" data-t="${i ? esc(t) : ""}">${esc(t)}</button>`).join("");
+    f.innerHTML = ["Todas", ...categorias].map((t, i) => `<button aria-pressed="${i===0}" data-t="${i ? esc(t) : ""}">${esc(t)}</button>`).join("");
     f.addEventListener("click", e => {
       const b = e.target.closest("button"); if (!b) return;
       f.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
